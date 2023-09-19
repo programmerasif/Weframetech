@@ -4,7 +4,7 @@ import Progressbr from '../progressBr/page';
 
 const HighlightBr = () => {
     return (
-        <div className='bg-[#15132B] flex gap-5 flex-col p-5 rounded-md'>
+        <div className='bg-[#15132B] flex gap-5 flex-col p-5 rounded-md mb-12'>
           <div className='flex flex-row gap-5 justify-between'>
           <div>
           <h5 className='text-2xl font-bold flex gap-4'><Image src="/btnback.png" width={35} height={35} alt='icon' ></Image> <span>School Novembor Task</span> </h5>

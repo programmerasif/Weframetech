@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbr from '../navebr/page';
 import HighlightBr from '../highlightBr/page';
+import TaskManagementBox from './TaskManagementBox/page';
 
 const Container = () => {
     return (
@@ -8,7 +9,9 @@ const Container = () => {
             <Navbr />
             <div className='p-12'>
             <HighlightBr />
+            <TaskManagementBox />
             </div>
+
         </div>
     );
 };
