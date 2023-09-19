@@ -7,7 +7,7 @@ import React from 'react';
 
 const TaskManagementBox = () => {
     return (
-        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:grid-cols-4 justify-center items-center gap-5 '>
+        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:grid-cols-4 justify-center items-start gap-5 '>
             <div>
                 <Todo />
             </div>

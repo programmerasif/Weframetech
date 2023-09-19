@@ -9,7 +9,7 @@ const Done = () => {
             <div className='flex flex-col'>
 
 <div>
-            <h5 className='flex justify-center items-center gap-32 text-[20px] font-bold'>{`Done (3)`} <Image src="/btnAddone.png" width={50} height={50} alt='icon'></Image> </h5>
+            <h5 className='flex justify-center items-center gap-32 text-[20px] font-bold mb-5'>{`Done (3)`} <Image src="/btnAddone.png" width={50} height={50} alt='icon'></Image> </h5>
 
             <div className="bg-[#211A75] w-[339px] h-[229px] p-8 rounded-lg mb-5">
           <div className="flex justify-between items-center mb-4">
