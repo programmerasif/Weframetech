@@ -1,7 +1,6 @@
 "use client"
 import { useState } from "react";
 import Dashboard from "./dashboard/page";
-import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import Container from "./container/page";
 
