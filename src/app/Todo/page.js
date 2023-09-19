@@ -8,10 +8,10 @@ const Todo = () => {
     return (
        <div className='flex flex-col'>
 
-<div>
+      <div>
             <h5 className='flex justify-center items-center gap-32 text-[20px] font-bold mb-1'>{`To-Do List(24)`} <Image src="/btnAdd.png" width={65} height={65} alt='icon'></Image> </h5>
 
-            <div className="bg-[#211A75] w-[339px] h-[229px] p-8 rounded-lg mb-5">
+            <div className="bg-[#211A75] w-[339px] h-[229px] p-8 rounded-lg mb-5 mr-0">
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 rounded-full bg-[#FFAB2D]"></div>
@@ -39,7 +39,7 @@ const Todo = () => {
         </div>
         </div>
 
-        <div>
+        <div className='mr-0 me-0 m-0'>
 
             <div className="bg-[#211A75] w-[339px] h-[229px] p-8 rounded-lg mb-5">
           <div className="flex justify-between items-center mb-4">

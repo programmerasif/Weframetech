@@ -5,7 +5,7 @@ import clock from '../../../../public/clock.png'
 import dots from '../../../../public/icVert.png'
 const InProgres = () => {
     return (
-        <div>
+        <div className='relative'>
             <h5 className='flex justify-center items-center gap-32 text-[20px] font-bold mb-5'>{`In progress (2)`} <Image src="/btnAddone.png" width={50} height={50} alt='icon'></Image> </h5>
 
             <div className='flex flex-col'>
@@ -42,7 +42,7 @@ const InProgres = () => {
 
         <div>
 
-            <div className="bg-[#211A75] w-[339px] h-[229px] p-8 rounded-lg mb-5">
+            <div className="bg-[#211A75] xl:mt-12 xl:drop-shadow-2xl xl:rotate-6 xl:absolute left-10 w-[339px] h-[229px] p-8 rounded-lg mb-5">
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 rounded-full bg-[#FF4A55]"></div>

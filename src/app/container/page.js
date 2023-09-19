@@ -5,9 +5,9 @@ import TaskManagementBox from './TaskManagementBox/page';
 
 const Container = () => {
     return (
-        <div className='bg-[#0D0B21] h-full flex flex-col gap-8'>
+        <div className='bg-[#0D0B21] h-full flex flex-col gap-8 mb-5'>
             <Navbr />
-            <div className='p-12'>
+            <div className='lg:px-12 px-3 mt-32'>
             <HighlightBr />
             <TaskManagementBox />
             </div>

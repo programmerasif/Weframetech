@@ -4,8 +4,8 @@ import { FaCaretDown, FaSearch } from 'react-icons/fa';
 
 const Navbr = () => {
     return (
-        <div>
-            <div className='flex justify-around items-center bg-[#15132B] h-[120px]'>
+        <div className=''>
+            <div className='flex justify-around items-center bg-[#15132B] h-[120px] fixed w-full z-20'>
                 <div className='hidden lg:block'>
                 <label className="relative block w-full text-center">
                      <span className="sr-only">Search</span>
