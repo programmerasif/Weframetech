@@ -19,7 +19,7 @@ export default function Home() {
    <Dashboard />
    
    </div>
-   <div className={`bg-[#0D0B21] text-white font-bold ring-2 fixed top-80  block lg:hidden p-3 rounded-full ${isSidebarOpen ? "left-1 duration-300" : "right-9 duration-7000"}`} onClick={toggleSidebar}>
+   <div className={`bg-[#0D0B21] text-white font-bold ring-2 z-30 fixed top-80  block lg:hidden p-3 rounded-full ${isSidebarOpen ? "left-1 duration-300" : "right-9 duration-7000"}`} onClick={toggleSidebar}>
           
             {
               isSidebarOpen ? <FaChevronRight /> : <FaChevronLeft />

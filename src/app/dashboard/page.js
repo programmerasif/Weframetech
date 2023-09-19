@@ -8,7 +8,7 @@ const Dashboard = () => {
 
    
     return (
-        <div className='relative '>
+        <div className='relative z-20'>
             <div className='w-[345px] bg-[#15132B] px-10 text-white absolute shadow-md'>
             <h5 className='text-center h-[90px]  flex justify-between items-center '><span>Weframetech </span> <Image src="/hamburgermenu.png" alt='menue' height={46} width={46} ></Image> </h5>
             <div className=' text-[#C7C7C7]'>
